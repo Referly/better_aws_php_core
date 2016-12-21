@@ -7,6 +7,9 @@ use PHPUnit_Framework_TestCase;
 
 class ConfigurationFactoryTest extends PHPUnit_Framework_TestCase
 {
+	/**
+	 * @var ConfigurationFactory
+	 */
 	protected $factory;
 
 	public function setUp()

@@ -1,0 +1,24 @@
+{
+  "name": "referly/better-aws-php-core",
+  "type": "library",
+  "description": "PHP library with Core Better_XXX AWS classes",
+  "license": "MIT",
+  "keywords": ["AWS", "aws"],
+  "homepage": "https://github.com/Referly/better_aws_php_core",
+  "authors": [
+    {
+      "name": "Courtland Caldwell",
+      "email": "courtland@mattermark.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "aws/aws-sdk-php": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-0": { "BetterSqsPhp": "src/" }
+  }
+}
